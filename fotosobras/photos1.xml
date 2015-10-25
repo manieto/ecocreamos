@@ -1,0 +1,32 @@
+<gallery
+base = ""
+background = "#CCCCCC"
+banner = "#FDFAFA"
+text = "#FFFFFF"
+link = "#FFFFFF"
+alink = "#FFFFFF"
+vlink = "#FFFFFF"
+date = "">
+	<sitename></sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#FDFAFA"> </banner>
+<thumbnail base ="images1/thumbnails/" font = "Arial" fontsize = "4" color = "#FDFAFA" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images1/" font = "Arial" fontsize = "3" color = "#FDFAFA" border = "0"> </large>
+<images id = "images">
+  <image path = "001.jpg" width = "800" height = "600" thumbpath = "001.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "002.jpg" width = "800" height = "600" thumbpath = "002.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "003.jpg" width = "800" height = "600" thumbpath = "003.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "004.jpg" width = "800" height = "600" thumbpath = "004.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "005.jpg" width = "800" height = "600" thumbpath = "005.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "006.jpg" width = "800" height = "600" thumbpath = "006.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "007.jpg" width = "800" height = "600" thumbpath = "007.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "008.jpg" width = "800" height = "600" thumbpath = "008.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "009.jpg" width = "800" height = "600" thumbpath = "009.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "010.jpg" width = "800" height = "600" thumbpath = "010.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "011.jpg" width = "800" height = "600" thumbpath = "011.jpg" thumbwidth = "75" thumbheight = "56"></image>
+</images>
+</gallery>

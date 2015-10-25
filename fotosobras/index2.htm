@@ -1,0 +1,78 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+  <meta http-equiv="Content-Language" content="es">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="File-List" href="promocionecologica_files/filelist.xml">
+  <title>EcoCreamos</title>
+  <style fprolloverstyle>
+    A.enlace {color: #663300; font-weight: bold}
+    A:hover {color: #a25100; font-weight: bold}
+  </style>
+  <link href="css/disenyo.css" rel="stylesheet" type="text/css">
+
+<!-- include CSS always before including js -->
+<link type="text/css" rel="stylesheet" href="../css/tn3/tn3.css"></link>
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<!-- include tn3 plugin -->
+<script type="text/javascript" src="../js/jquery.tn3lite.min.js"></script>
+
+<!--  initialize the TN3 when the DOM is ready -->
+<script type="text/javascript">
+	$(document).ready(function() {
+    if (jQuery.browser.webkit || jQuery.browser.safari) { $('#cabeceraFlash').hide(); }
+		//Thumbnailer.config.shaderOpacity = 1;
+		var tn1 = $('.mygallery').tn3({
+      skinDir:"css",
+      width:800,
+      height:600,
+      autoplay:true,
+      delay:20000,
+      imageClick:"next",
+      image:{
+      crop:false,
+      clickEvent:"click",
+      idleDelay:2000,
+      transitions:[{
+      type:"fade",
+      duration:300
+      }]
+      }
+		});
+	});
+</script>
+</head>
+<body background="Beige3.jpg" link="#000000" vlink="#000000" alink="#663300">
+
+<center>
+								
+<div id="content">
+  <div class="mygallery">
+	  <div class="tn3 album">
+	    <h4>EcoCreamos - Santanyí</h4>
+	    <div class="tn3 description">Construcción ecológica en Santanyí</div>
+	    <div class="tn3 thumb">galeria2.jpg</div>
+	    <ol>
+        <li><a href="images2/001.jpg"><img src="images2/thumbnails/001.jpg" /></a></li>
+        <li><a href="images2/002.jpg"><img src="images2/thumbnails/002.jpg" /></a></li>
+        <li><a href="images2/003.jpg"><img src="images2/thumbnails/003.jpg" /></a></li>
+        <li><a href="images2/004.jpg"><img src="images2/thumbnails/004.jpg" /></a></li>
+        <li><a href="images2/005.jpg"><img src="images2/thumbnails/005.jpg" /></a></li>
+        <li><a href="images2/006.jpg"><img src="images2/thumbnails/006.jpg" /></a></li>
+        <li><a href="images2/007.jpg"><img src="images2/thumbnails/007.jpg" /></a></li>
+        <li><a href="images2/008.jpg"><img src="images2/thumbnails/008.jpg" /></a></li>
+        <li><a href="images2/009.jpg"><img src="images2/thumbnails/009.jpg" /></a></li>
+        <li><a href="images2/010.jpg"><img src="images2/thumbnails/010.jpg" /></a></li>
+        <li><a href="images2/011.jpg"><img src="images2/thumbnails/011.jpg" /></a></li>
+        <li><a href="images2/012.jpg"><img src="images2/thumbnails/012.jpg" /></a></li>
+        <li><a href="images2/013.jpg"><img src="images2/thumbnails/013.jpg" /></a></li>
+	    </ol>
+	  </div>
+  </div>
+</div>
+
+</center>
+</body>
+
+</html>

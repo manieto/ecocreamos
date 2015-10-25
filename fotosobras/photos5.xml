@@ -1,0 +1,35 @@
+<gallery
+base = ""
+background = "#CCCCCC"
+banner = "#FDFAFA"
+text = "#FFFFFF"
+link = "#FFFFFF"
+alink = "#FFFFFF"
+vlink = "#FFFFFF"
+date = "">
+	<sitename></sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#FDFAFA"> </banner>
+<thumbnail base ="../ejecucion/datapromocion5/thumbnails/" font = "Arial" fontsize = "4" color = "#FDFAFA" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="../ejecucion/datapromocion5/images/" font = "Arial" fontsize = "3" color = "#FDFAFA" border = "0"> </large>
+<images id = "images">
+  <image path = "web 86.jpg" width = "800" height = "533" thumbpath = "web 86_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 87.jpg" width = "800" height = "533" thumbpath = "web 87_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 88.jpg" width = "400" height = "600" thumbpath = "web 88_2.jpg" thumbwidth = "37" thumbheight = "56"></image>
+  <image path = "web 89.jpg" width = "800" height = "533" thumbpath = "web 89_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 90.jpg" width = "800" height = "533" thumbpath = "web 90_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 91.jpg" width = "800" height = "533" thumbpath = "web 91_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 92.jpg" width = "400" height = "600" thumbpath = "web 92_2.jpg" thumbwidth = "37" thumbheight = "56"></image>
+  <image path = "web 93.jpg" width = "800" height = "533" thumbpath = "web 93_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 94.jpg" width = "400" height = "600" thumbpath = "web 94_2.jpg" thumbwidth = "37" thumbheight = "56"></image>
+  <image path = "web 95.jpg" width = "800" height = "533" thumbpath = "web 95_2.jpg" thumbwidth = "85" thumbheight = "56"></image>
+  <image path = "web 96.jpg" width = "400" height = "600" thumbpath = "web 96_2.jpg" thumbwidth = "37" thumbheight = "56"></image>
+  <!--<image path = "web 97.jpg" width = "800" height = "600" thumbpath = "web 97.jpg" thumbwidth = "160" thumbheight = "240"></image>
+  <image path = "web 98.jpg" width = "800" height = "600" thumbpath = "web 98.jpg" thumbwidth = "160" thumbheight = "240"></image>-->
+  <image path = "web 99.jpg" width = "400" height = "600" thumbpath = "web 99_2.jpg" thumbwidth = "37" thumbheight = "56"></image>
+</images>
+</gallery>

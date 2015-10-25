@@ -1,0 +1,86 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+  <meta http-equiv="Content-Language" content="es">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="File-List" href="promocionecologica_files/filelist.xml">
+  <title>EcoCreamos</title>
+  <style fprolloverstyle>
+    A.enlace {color: #663300; font-weight: bold}
+    A:hover {color: #a25100; font-weight: bold}
+  </style>
+  <link href="css/disenyo.css" rel="stylesheet" type="text/css">
+
+<!-- include CSS always before including js -->
+<link type="text/css" rel="stylesheet" href="../css/tn3/tn3.css"></link>
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<!-- include tn3 plugin -->
+<script type="text/javascript" src="../js/jquery.tn3lite.min.js"></script>
+
+<!--  initialize the TN3 when the DOM is ready -->
+<script type="text/javascript">
+	$(document).ready(function() {
+    if (jQuery.browser.webkit || jQuery.browser.safari) { $('#cabeceraFlash').hide(); }
+		//Thumbnailer.config.shaderOpacity = 1;
+		var tn1 = $('.mygallery').tn3({
+      skinDir:"css",
+      width:800,
+      height:600,
+      autoplay:true,
+      delay:20000,
+      imageClick:"next",
+      image:{
+      crop:false,
+      clickEvent:"click",
+      idleDelay:2000,
+      transitions:[{
+      type:"fade",
+      duration:300
+      }]
+      }
+		});
+	});
+</script>
+</head>
+<body background="Beige3.jpg" link="#000000" vlink="#000000" alink="#663300">
+
+<center>
+								
+<div id="content">
+  <div class="mygallery">
+	  <div class="tn3 album">
+	    <h4>EcoCreamos</h4>
+	    <div class="tn3 description">Rehabilitación con carácter rústico. Ecológica.</div>
+	    <div class="tn3 thumb">../casa3.gif</div>
+	    <ol>
+        <li><a href="images/001.jpg"><img src="thumbnails/001.jpg" /></a></li>
+        <li><a href="images/002.jpg"><img src="thumbnails/002.jpg" /></a></li>
+        <li><a href="images/003.jpg"><img src="thumbnails/003.jpg" /></a></li>
+        <li><a href="images/004.jpg"><img src="thumbnails/004.jpg" /></a></li>
+        <li><a href="images/005.jpg"><img src="thumbnails/005.jpg" /></a></li>
+        <li><a href="images/006.jpg"><img src="thumbnails/006.jpg" /></a></li>
+        <li><a href="images/007.jpg"><img src="thumbnails/007.jpg" /></a></li>
+        <li><a href="images/008.jpg"><img src="thumbnails/008.jpg" /></a></li>
+        <li><a href="images/009.jpg"><img src="thumbnails/009.jpg" /></a></li>
+        <li><a href="images/010.jpg"><img src="thumbnails/010.jpg" /></a></li>
+        <li><a href="images/011.jpg"><img src="thumbnails/011.jpg" /></a></li>
+        <li><a href="images/012.jpg"><img src="thumbnails/012.jpg" /></a></li>
+        <li><a href="images/013.jpg"><img src="thumbnails/013.jpg" /></a></li>
+        <li><a href="images/014.jpg"><img src="thumbnails/014.jpg" /></a></li>
+        <li><a href="images/015.jpg"><img src="thumbnails/015.jpg" /></a></li>
+        <li><a href="images/016.jpg"><img src="thumbnails/016.jpg" /></a></li>
+        <li><a href="images/017.jpg"><img src="thumbnails/017.jpg" /></a></li>
+        <li><a href="images/018.jpg"><img src="thumbnails/018.jpg" /></a></li>
+        <li><a href="images/019.jpg"><img src="thumbnails/019.jpg" /></a></li>
+        <li><a href="images/020.jpg"><img src="thumbnails/020.jpg" /></a></li>
+        <li><a href="images/021.jpg"><img src="thumbnails/021.jpg" /></a></li>
+	    </ol>
+	  </div>
+  </div>
+</div>
+
+</center>
+</body>
+
+</html>

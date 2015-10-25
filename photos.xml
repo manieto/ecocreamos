@@ -1,0 +1,121 @@
+<gallery
+base = ""
+background = "#CCCCCC"
+banner = "#FDFAFA"
+text = "#FFFFFF"
+link = "#FFFFFF"
+alink = "#FFFFFF"
+vlink = "#FFFFFF"
+date = "">
+	<sitename></sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#FDFAFA"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#FDFAFA" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#FDFAFA" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "506935_11.jpg"
+width = "350"
+height = "262"
+thumbpath = "506935_11.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "506935_112.jpg"
+width = "350"
+height = "262"
+thumbpath = "506935_112.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "506935_12.jpg"
+width = "350"
+height = "262"
+thumbpath = "506935_12.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "506935_19.jpg"
+width = "350"
+height = "262"
+thumbpath = "506935_19.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "506935_21.jpg"
+width = "350"
+height = "262"
+thumbpath = "506935_21.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "506935_22.jpg"
+width = "350"
+height = "262"
+thumbpath = "506935_22.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "506935_5.jpg"
+width = "277"
+height = "350"
+thumbpath = "506935_5.jpg"
+thumbwidth = "59"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "506935_6.jpg"
+width = "350"
+height = "233"
+thumbpath = "506935_6.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "506935_7.jpg"
+width = "350"
+height = "233"
+thumbpath = "506935_7.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "506935_8.jpg"
+width = "350"
+height = "233"
+thumbpath = "506935_8.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+</images>
+</gallery>

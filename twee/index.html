@@ -1,0 +1,312 @@
+
+<!DOCTYPE html> 
+<html> 
+<head>
+	<meta charset="utf-8" />
+	<title>Twee Swips</title>
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" href="/Content/images/icon-precomp-117.png" />
+	<link rel="icon" sizes="117x117" type="image/png" href="/Content/images/icon-precomp-117.png" />
+	<link rel="icon" sizes="16x16" type="image/png" href="/Content/images/icon-precomp-16.png" />
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.css" />
+
+
+  <!--<script type="text/javascript" src="/scripts/jquery.tmpl.js?Mobile_Web_12_3_0_2.prod.com"></script>-->
+  <script type="text/javascript" src="/scripts/OTSiteCatalystVars.js?Mobile_Web_12_3_0_2.prod.com">
+  </script><script type="text/javascript" src="/scripts/ot.js?Mobile_Web_12_3_0_2.prod.com"></script>
+  <script type="text/javascript" src="/script/globalresources?Mobile_Web_12_3_0_2.prod.com"></script>
+  <script type="text/javascript" src="/scripts/jquery.mobile-1.0rc2.js?Mobile_Web_12_3_0_2.prod.com"></script>
+
+  <link rel="stylesheet" type="text/css" href="/content/Themes/OpenTable/OT-theme.css?Mobile_Web_12_3_0_2.prod.com" />
+  <link rel="stylesheet" type="text/css" href="/content/site.css?Mobile_Web_12_3_0_2.prod.com" />
+	
+
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.js"></script>
+
+  <style>
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen 
+    and (max-width : 360px) {
+       .tweeLogo { width:100% }
+       .tweeLogoH1 { margin: 0.6em 6% 0.8em !important }
+    }
+
+    /* Smartphones (landscape) ----------- */
+    @media only screen 
+    and (min-width : 361px) {
+       .tweeLogo { width:80% }
+       .tweeLogoH1 { margin: 0.6em 30% 0.8em !important }
+    }
+
+    .ui-icon-twee-hamburger { background-image: url(icons/hamburger.png); }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+      .ui-icon-twee-hamburger {
+        background-image: url(icons/hamburger.png) !important;
+        background-size: 18px 18px;
+      }
+    }
+
+    .ui-body-a, .ui-body-c, .ui-bar-a { background: #000000; }
+    .ui-bar-a { border: 1px solid #000000; }
+
+  </style>
+
+</head>
+<body>
+
+<div data-role="page" id="inicio">
+	<div data-role="header">
+		<h1 class="tweeLogoH1"><img src="images/tweeswips.png" class="tweeLogo" /></h1>
+	</div><!-- /header -->
+	<div data-role="content" data-theme="a">
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#pedido" data-transition="slide" data-role="button">¡A comer!</a></div>
+			<div class="ui-block-b"><a href="#perfil" data-transition="slide" data-role="button">Mi perfil</a></div>
+    </div>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#pedido" data-transition="slide" data-role="button">Novedades y promociones</a></div>
+			<div class="ui-block-b"><a href="#contacto" data-transition="slide" data-role="button">Contacto</a></div>
+    </div>
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="pedido">
+	<div data-role="header">
+    <a data-rel="back" data-icon="back">Atrás</a>
+		<h1>Mi pedido</h1>
+	  <a href="#pedido" data-icon="check" data-theme="b">Ok</a>
+	</div><!-- /header -->
+  <div data-role="navbar">
+	  <ul>
+		  <li><a href="#hamburguesas" data-transition="slide"><img src="images/hamburger.jpg" style="width:30px;" title="Hamburguesas y perritos"/></a></li> <!-- data-icon="twee-hamburger" data-iconshadow="false" -->
+		  <li><a href="#hamburguesas" data-transition="slide"><img src="images/hamburger.jpg" style="width:30px;" title="Raciones"/></a></li>
+		  <li><a href="#hamburguesas" data-transition="slide"><img src="images/hamburger.jpg" style="width:30px;" title="Ensaladas"/></a></li>
+		  <li><a href="#hamburguesas" data-transition="slide"><img src="images/hamburger.jpg" style="width:30px;" title="Bebidas"/></a></li>
+		  <li><a href="#hamburguesas" data-transition="slide"><img src="images/hamburger.jpg" style="width:30px;" title="Postres"/></a></li>
+	  </ul>
+  </div><!-- /navbar -->
+	<div data-role="content">
+		<ul data-role="listview" data-split-icon="delete">
+      <li>
+        <a href="#hamburguesa" data-transition="slide">
+          <div class="ui-grid-b">
+			      <div class="ui-block-a" style="vertical-align:middle;white-space:normal;">Marco Carola</div>
+			      <div class="ui-block-b" style="vertical-align:middle;white-space:normal;">1 Menú Grande</div>
+			      <div class="ui-block-c" style="vertical-align:middle;white-space:normal;">11,50 €</div>
+          </div>
+        </a>
+        <a href="#eliminarLinea" data-rel="popup" data-position-to="window" data-transition="pop">Eliminar línea de pedido</a>
+      </li>
+      <li>
+        <a href="#hamburguesa" data-transition="slide">
+          <div class="ui-grid-b">
+			      <div class="ui-block-a" style="vertical-align:middle;white-space:normal;">Súper Gastal</div>
+			      <div class="ui-block-b" style="vertical-align:middle;white-space:normal;">2 Menús Medianos</div>
+			      <div class="ui-block-c" style="vertical-align:middle;white-space:normal;">17,00 €</div>
+          </div>
+        </a>
+        <a href="#eliminarLinea" data-rel="popup" data-position-to="window" data-transition="pop">Eliminar línea de pedido</a>
+      </li>
+      <li data-theme="d">
+        <div class="ui-grid-c">
+			    <div class="ui-block-a" style="vertical-align:middle;">Total</div>
+			    <div class="ui-block-b" style="vertical-align:middle;"></div>
+			    <div class="ui-block-c" style="vertical-align:middle;color:blue;">28,50 €</div>
+			    <div class="ui-block-d" style="vertical-align:middle;"></div>
+        </div>
+      </li>
+    </ul>
+	</div><!-- /content -->
+  <div data-role="popup" id="eliminarLinea" data-theme="d" data-overlay-theme="b" class="ui-content" style="max-width:340px;">
+	  <h3>¿Eliminar línea de pedido?</h3>
+	  <span style="text-align:center;">
+      <a href="#inicio" data-role="button" data-rel="back" data-theme="b" data-icon="check" data-inline="true" data-mini="true">Sí</a>
+	    <a href="#pedido" data-role="button" data-rel="back" data-inline="true" data-mini="true">Mejor no :-)</a>	
+    </span>
+  </div>
+</div><!-- /page -->
+
+<div data-role="page" id="hamburguesas">
+	<div data-role="header">
+    <a data-rel="back" data-icon="back">Atrás</a>
+		<h1>Hamburguesas y perritos</h1>
+	</div><!-- /header -->
+	<div data-role="content">
+    <a id="hrefHamburguesa" href="#hamburguesa" style="display:none;" data-transition="slide"></a>
+		<ul data-role="listview">
+			<li><a href="#hamburguesa" data-transition="slide">
+        <img class="ui-li-thumb" src="images/hamburger.jpg" />
+        <h3 class="ui-li-heading">Marco Carola</h3>
+        <p class="ui-li-desc" style="white-space:normal;">doble crocante de cebolla y patata, picante barbacoa, una saciante textura de huevo, queso fundido y bacon</p>
+        <!--<div data-role="collapsible-set">
+          <div data-role="collapsible" data-collapsed="true">
+            <h2>Más información</h2>
+            <p>Pica un poco, pero está rica rica.</p>
+          </div>
+          <div data-role="collapsible" data-collapsed="true">
+            <h2>Recomendaciones</h2>
+            <p>Si te gusta la Kas Naranja, pídete una y potenciarás el sabor de los crocantes y el queso fundido.</p>
+          </div>
+        </div>-->
+        <!--<span class="ui-li-count">2</span>-->
+      </a></li>
+			<li><a href="#hamburguesa" data-transition="slide">
+        <img class="ui-li-thumb" src="images/hamburger.jpg" />
+        <h3 class="ui-li-heading">Súper Gastal</h3>
+        <p class="ui-li-desc" style="white-space:normal;">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+      </a></li>
+			<li><a href="#hamburguesa" data-transition="slide">
+        <img class="ui-li-thumb" src="images/hamburger.jpg" />
+        <h3 class="ui-li-heading">Led Zep</h3>
+        <p class="ui-li-desc" style="white-space:normal;">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+      </a></li>
+    </ul>
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="hamburguesa">
+	<div data-role="header">
+	  <a data-rel="back" data-icon="back">Cancelar</a>
+		<h1>Marco Carola</h1>
+	  <a href="#pedido" data-icon="check" data-theme="b">Aceptar</a>
+	</div><!-- /header -->
+	<div data-role="content">
+		<div class="ui-grid-a">
+			<div class="ui-block-a" style="width:28%;">Cantidad</div>
+			<div class="ui-block-b" style="width:72%;">
+        <div id="cantidadDec" data-role="button" data-inline="true" style="width:15%;">-</div>
+        <input id="cantidad"  type="number"      data-inline="true" style="width:25%;display:inline;" />
+        <div id="cantidadInc" data-role="button" data-inline="true" style="width:15%;">+</div>
+      </div>
+			<div class="ui-block-a" style="width:28%;">Tamaño</div>
+			<div class="ui-block-b" style="width:72%;">
+        <div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right" data-content-theme="c">
+          <h3><span id="tamanyo">Seleccione</span></h3>
+          <ul data-role="listview">
+            <li><span class="tamanyoOpcion">Mediano (4,70 €)</span></li>
+            <li><span class="tamanyoOpcion">Menú Mediano (8,20 €)</span></li>
+            <li><span class="tamanyoOpcion">Grande (7,90 €)</span></li>
+            <li><span class="tamanyoOpcion">Menú Grande (11,50 €)</span></li>
+          </ul>
+        </div>
+        <!--<select>
+          <option disabled>Seleccione</option>
+          <option>Mediano (4,70 €)</option>
+          <option>Menú Mediano (8,20 €)</option>
+          <option>Grande (7,90 €)</option>
+          <option>Menú Grande (11,50 €)</option>
+        </select>-->
+      </div>
+	    <div class="ui-block-a" style="width:28%;">Tipo</div>
+	    <div class="ui-block-b" style="width:72%;">
+        <div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right" data-content-theme="c">
+          <h3><span id="tipo">Seleccione</span></h3>
+          <ul data-role="listview">
+            <li><div class="tipoOpcion">Hamburguesa de vacuno</div></li>
+            <li><div class="tipoOpcion">Perrito bockwurst)</div></li>
+          </ul>
+        </div>
+        <!--<select>
+          <option>Hamburguesa de vacuno</option>
+          <option>Perrito bockwurst</option>
+        </select>-->
+      </div>
+    </div>
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="perfil">
+	<div data-role="header">
+    <a data-rel="back" data-icon="back">Atrás</a>
+		<h1>Mi perfil</h1>
+	  <a href="#inicio" data-icon="check" data-theme="b">Confirmar</a>
+	</div><!-- /header -->
+	<div data-role="content">
+		<div data-role="fieldcontain">
+			<div><label for="nombre"    />Nombre    <input type="text"  id="nombre"    /></div>
+      <div><label for="direccion" />Dirección <input type="text"  id="direccion" /></div>
+      <div><label for="telefono"  />Teléfono  <input type="tel"   id="telefono"  /></div>
+      <div><label for="email"     />E-mail    <input type="email" id="email"     /></div>
+      <div style="padding-top:15px;">Puntos acumulados: <b>250</b></div>
+    </div>
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="contacto">
+	<div data-role="header">
+    <a data-rel="back" data-icon="back">Atrás</a>
+		<h1>Twee swips</h1>
+	</div><!-- /header -->
+	<div data-role="content">
+    <ul data-role="listview">
+      <li><div>Dirección: C/ Miguel Arcas, 1</div></li>
+		  <li><div>Teléfono: <a href="tel:971605219">971 60 52 19</a></div></li>
+      <li><div>E-mail: <a href="mailto:info@tweeswips.com">info@tweeswips.com</a></div></li>
+    </ul>
+	</div><!-- /content -->
+</div><!-- /page -->
+
+
+<script>
+
+  function incrementarCantidad(incremento) {
+    var cantidad = $("#cantidad").val();
+    if (!cantidad || cantidad==undefined || cantidad=="") { cantidad = "0"; }
+    cantidad = parseInt(cantidad) + incremento;
+    if (cantidad<1) { cantidad = ""; }
+    $("#cantidad").val(cantidad);
+  }
+  $("#cantidadDec").on("vclick", function(event) { incrementarCantidad(-1); });
+  $("#cantidadInc").on("vclick", function(event) { incrementarCantidad( 1); });
+
+  $(".tamanyoOpcion").on("vclick", function(event) { $("#tamanyo").text($(event.target).html()); $("#tamanyo").click(); });
+  $(".tipoOpcion"   ).on("vclick", function(event) { $("#tipo"   ).text($(event.target).html()); $("#tipo"   ).click(); });
+
+
+  var fixgeometry = function() {
+    /* Some orientation changes leave the scroll position at something
+     * that isn't 0,0. This is annoying for user experience. */
+    //scroll(0, 0);
+
+    /* Calculate the geometry that our content area should take */
+    var header = $(".ui-header:visible");
+    //var footer = $(".ui-footer:visible");
+    var content = $(".ui-content:visible");
+
+    var viewport_height = $(window).height();
+    var content_height = viewport_height - header.outerHeight(); // - footer.outerHeight();
+    
+    /* Trim margin/border/padding height */
+    content_height -= (content.outerHeight() - content.height());
+    content_height += 60;
+    content.height(content_height);
+    window.scroll(0, 1);
+  }; /* fixgeometry */
+
+$(document).ready(function() {
+
+    $(window).bind("orientationchange resize pageshow", function() { setTimeout(fixgeometry, 1000); } );
+
+});
+
+
+/*function hideAddressBar(){
+  if(document.documentElement.scrollHeight<window.outerHeight/window.devicePixelRatio)
+    document.documentElement.style.height=(window.outerHeight/window.devicePixelRatio)+'px';
+  setTimeout(window.scrollTo(1,1),0);
+}
+window.addEventListener("load",function(){hideAddressBar();});
+window.addEventListener("orientationchange",function(){hideAddressBar();});
+*/
+
+</script>
+
+</body>
+</html>
+

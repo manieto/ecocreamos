@@ -1,0 +1,221 @@
+<gallery
+base = ""
+background = "#DCDBD9"
+banner = "#FDFAFA"
+text = "#FFFFFF"
+link = "#FFFFFF"
+alink = "#FFFFFF"
+vlink = "#FFFFFF"
+date = "">
+	<sitename></sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#FDFAFA"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#FDFAFA" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#FDFAFA" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "IJ7W0957.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0957.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0961.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0961.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0966.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0966.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0972.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0972.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0976.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0976.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0978.jpg"
+width = "450"
+height = "299"
+thumbpath = "IJ7W0978.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IJ7W0979.jpg"
+width = "450"
+height = "299"
+thumbpath = "IJ7W0979.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IJ7W0982.jpg"
+width = "301"
+height = "450"
+thumbpath = "IJ7W0982.jpg"
+thumbwidth = "50"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0984.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0984.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0985.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0985.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0989.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0989.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0991.jpg"
+width = "450"
+height = "299"
+thumbpath = "IJ7W0991.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IJ7W0995.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0995.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W0999.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W0999.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W1003.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W1003.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W1005.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W1005.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W1006.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W1006.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W1009.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W1009.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W1011.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W1011.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IJ7W1012.jpg"
+width = "299"
+height = "450"
+thumbpath = "IJ7W1012.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+</images>
+</gallery>

@@ -1,0 +1,53 @@
+<gallery
+base = ""
+background = "#CCCCCC"
+banner = "#FDFAFA"
+text = "#FFFFFF"
+link = "#FFFFFF"
+alink = "#FFFFFF"
+vlink = "#FFFFFF"
+date = "">
+	<sitename></sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#FDFAFA"> </banner>
+<thumbnail base ="images3/thumbnails/" font = "Arial" fontsize = "4" color = "#FDFAFA" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images3/" font = "Arial" fontsize = "3" color = "#FDFAFA" border = "0"> </large>
+<images id = "images">
+  <image path = "001.jpg" width = "800" height = "600" thumbpath = "001.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "002.jpg" width = "800" height = "600" thumbpath = "002.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "003.jpg" width = "800" height = "600" thumbpath = "003.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "004.jpg" width = "800" height = "600" thumbpath = "004.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "005.jpg" width = "800" height = "600" thumbpath = "005.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "006.jpg" width = "800" height = "600" thumbpath = "006.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "007.jpg" width = "800" height = "600" thumbpath = "007.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "008.jpg" width = "800" height = "600" thumbpath = "008.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "009.jpg" width = "800" height = "600" thumbpath = "009.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "010.jpg" width = "800" height = "600" thumbpath = "010.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "011.jpg" width = "800" height = "600" thumbpath = "011.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "012.jpg" width = "800" height = "600" thumbpath = "012.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "013.jpg" width = "800" height = "600" thumbpath = "013.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "014.jpg" width = "800" height = "600" thumbpath = "014.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "015.jpg" width = "800" height = "600" thumbpath = "015.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "016.jpg" width = "800" height = "600" thumbpath = "016.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "017.jpg" width = "800" height = "600" thumbpath = "017.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "018.jpg" width = "800" height = "600" thumbpath = "018.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "019.jpg" width = "800" height = "600" thumbpath = "019.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "020.jpg" width = "800" height = "600" thumbpath = "020.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "021.jpg" width = "800" height = "600" thumbpath = "021.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "022.jpg" width = "800" height = "600" thumbpath = "022.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "023.jpg" width = "800" height = "600" thumbpath = "023.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "024.jpg" width = "800" height = "600" thumbpath = "024.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "025.jpg" width = "800" height = "600" thumbpath = "025.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "026.jpg" width = "800" height = "600" thumbpath = "026.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "027.jpg" width = "800" height = "600" thumbpath = "027.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "028.jpg" width = "800" height = "600" thumbpath = "028.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "029.jpg" width = "800" height = "600" thumbpath = "029.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "030.jpg" width = "800" height = "600" thumbpath = "030.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "031.jpg" width = "800" height = "600" thumbpath = "031.jpg" thumbwidth = "75" thumbheight = "56"></image>
+  <image path = "032.jpg" width = "800" height = "600" thumbpath = "032.jpg" thumbwidth = "75" thumbheight = "56"></image>
+</images>
+</gallery>
